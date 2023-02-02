@@ -1,0 +1,7 @@
+File from: [./out/png-55 - Frame 93.png.png]
+
+File to: [compressed/png-55 - Frame 93.png.png]
+
+Compression algorithm: [-]
+
+Description: File does not exist!

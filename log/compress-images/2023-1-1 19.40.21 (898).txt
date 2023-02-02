@@ -1,0 +1,7 @@
+File from: [/out/png-1.png]
+
+File to: [compressed/png-1.png]
+
+Compression algorithm: [-]
+
+Description: File does not exist!

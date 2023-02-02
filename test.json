@@ -1,0 +1,47 @@
+{
+	"customer_address": {
+		"confidence": 0.98,
+		"polygon": [
+			[0.432, 0.131],
+			[0.441, 0.131],
+			[0.441, 0.142],
+			[0.432, 0.142]
+		],
+		"value": "6"
+	},
+	"customer_company_registrations": [],
+	"customer_name": { "confidence": 0, "polygon": [], "value": null },
+	"date": {
+		"confidence": 0.99,
+		"polygon": [
+			[0.483, 0.397],
+			[0.559, 0.397],
+			[0.559, 0.409],
+			[0.483, 0.409]
+		],
+		"value": "2014-07-02"
+	},
+	"document_type": { "value": "INVOICE" },
+	"due_date": { "confidence": 0, "polygon": [], "value": null },
+	"invoice_number": { "confidence": 0, "polygon": [], "value": null },
+	"line_items": [],
+	"locale": { "confidence": 0.51, "currency": "USD", "language": "en" },
+	"orientation": { "confidence": 0.99, "degrees": 0 },
+	"reference_numbers": [],
+	"supplier_address": { "confidence": 0, "polygon": [], "value": null },
+	"supplier_company_registrations": [],
+	"supplier_name": {
+		"confidence": 0.91,
+		"polygon": [
+			[0.57, 0.245],
+			[0.619, 0.245],
+			[0.619, 0.26],
+			[0.57, 0.26]
+		],
+		"value": "URLS,"
+	},
+	"supplier_payment_details": [],
+	"taxes": [],
+	"total_amount": { "confidence": 0, "polygon": [], "value": null },
+	"total_net": { "confidence": 0, "polygon": [], "value": null }
+}
