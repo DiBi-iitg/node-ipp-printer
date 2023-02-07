@@ -2,7 +2,7 @@ import * as fsExtra from "fs-extra";
 import { v4 as uuidv4 } from "uuid";
 import axios from "axios";
 
-const handleParse = async (response) => {
+const handleParse = async (response, receiptLink) => {
 	const prediction = response?.document?.inference?.prediction;
 	if (!prediction) {
 		console.log("Error parsing");
@@ -33,6 +33,7 @@ const handleParse = async (response) => {
 			invoiceNumber,
 			txns,
 			totalAmount,
+			receiptLink,
 		});
 		console.log(resp.data);
 		console.log("Uploading done!");
